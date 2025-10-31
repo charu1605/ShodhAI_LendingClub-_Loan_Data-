@@ -133,19 +133,7 @@ This will:
 
 ---
 
-## 🐳 Docker (optional) — run the whole analysis containerized
 
-If you prefer Docker, the repository includes a `Dockerfile`. Example commands:
-
-```bash
-# build image
-docker build -t lending-club-eda:latest .
-
-# run container mounting local repo (writes generated_reports to host)
-docker run --rm -v "$(pwd)/generated_reports:/workspace/generated_reports" lending-club-eda:latest /bin/bash -c "jupyter nbconvert --execute --inplace --ExecutePreprocessor.timeout=600 lending_club_eda.ipynb"
-```
-
----
 
 ## ⚙️ Configuration flags inside the notebook
 
