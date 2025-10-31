@@ -10,23 +10,7 @@ This repository contains a fully documented Jupyter notebook and supporting scri
 
 ---
 
-## 📁 Repo layout
 
-```
-lending-club-eda/
-├── data/
-│   └── accepted_2007_to_2018Q4.csv     # Dataset (NOT included - download separately)
-├── generated_reports/                   # Output folder for reports and plots
-├── lending_club_eda.ipynb               # Main analysis notebook (runnable end-to-end)
-├── requirements.txt                     # Pinned Python dependencies
-├── environment.yml                      # (Optional) Conda environment file
-├── Dockerfile                           # (Optional) Dockerfile to reproduce environment
-├── run_analysis.sh                      # Optional script to run notebook non-interactively
-├── README.md                            # This file
-└── LICENSE                              # MIT License
-```
-
----
 
 # ✅ Quick install & reproduce (step-by-step)
 
